@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="description">Description : </string>
+    <string name="category">Category :</string>
+    <string name="price">Price :</string>
+    <string name="title">Title :</string>
+    <string name="tv_price" />
+    <string name="tv_title" />
+    <string name="tv_description" />
+    <string name="tv_category" />
+    <string name="add_product">Add product</string>
+    <string name="title_text">Title</string>
+    <string name="price_text">price</string>
+    <string name="category_text">category</string>
+    <string name="submit_btn">Submit</string>
+</resources>

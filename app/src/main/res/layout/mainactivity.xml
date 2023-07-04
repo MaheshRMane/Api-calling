@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_all"
+    android:gravity="center"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_product"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tv_size_product"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/baseline_title_24"
+            android:drawablePadding="@dimen/dr_padding"
+            android:hint="@string/title_text"
+            android:inputType="textCapWords"
+            android:padding="@dimen/padding_all"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/et_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/baseline_currency_rupee_24"
+            android:drawablePadding="@dimen/dr_padding"
+            android:hint="@string/price_text"
+            android:inputType="number"
+            android:padding="@dimen/padding_all"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/et_discription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/baseline_description_24"
+            android:drawablePadding="@dimen/dr_padding"
+            android:hint="description"
+            android:inputType="textCapWords"
+            android:padding="@dimen/padding_all"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/et_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/baseline_category_24"
+            android:drawablePadding="@dimen/dr_padding"
+            android:hint="@string/category_text"
+            android:inputType="textCapWords"
+            android:padding="@dimen/padding_all"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@drawable/button_bg"
+            android:text="@string/submit_btn"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>

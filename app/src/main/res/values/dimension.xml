@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="corner_radius">10dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="tv_size">16sp</dimen>
+    <dimen name="margin">12sp</dimen>
+    <dimen name="margin_all">24dp</dimen>
+    <dimen name="tv_size_product">20sp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="dr_padding">6dp</dimen>
+    <dimen name="padding_all">6dp</dimen>
+
+</resources>
